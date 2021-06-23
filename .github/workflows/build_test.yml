@@ -20,7 +20,6 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install -e
       - name : run linter [flake8]
         run: flake8 .
      
