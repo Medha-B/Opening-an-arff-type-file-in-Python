@@ -13,6 +13,7 @@ setup(
 	keywords = ["microarray", "arff"],
 	classifiers = [
 		"Programming Language :: Python :: 3",
+		"Programming Language :: Python :: 3.8",	
 	]
 	
 )
