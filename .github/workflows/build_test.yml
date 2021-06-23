@@ -6,7 +6,7 @@ jobs:
 
     runs-on: windows-latest
    
-   steps :
+    steps :
       - uses: actions/checkout@v2
       - name: Build using Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
