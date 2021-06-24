@@ -6,3 +6,7 @@ class TestCode(unittest.TestCase):
     def test_plus(self):
         result = plus(10, 10)
         self.assertEqual(result, 20)
+
+
+if __name__ == '__main__':
+	unittest.main()
