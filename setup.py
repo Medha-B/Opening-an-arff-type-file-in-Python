@@ -3,7 +3,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-    name="ArffPython",
+    name="Arffpython",
     packages=find_packages(),
     version="1.0.0",
     license="Apache",
