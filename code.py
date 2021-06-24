@@ -9,7 +9,7 @@ data = loadarff(in_mem_fo)
 
 
 def plus(a, b):
-   return a + b
+    return a + b
 
 
 df = pd.DataFrame(data[0])
