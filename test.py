@@ -1,4 +1,4 @@
-from Arffpython.models.code import plus
+from models.code import plus
 
 
 def test_plus():
