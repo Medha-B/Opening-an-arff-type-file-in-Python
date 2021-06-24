@@ -1,5 +1,3 @@
-pip install liac-arff
-
 from scipy.io import arff
 import pandas as pd
 from io import BytesIO, TextIOWrapper
