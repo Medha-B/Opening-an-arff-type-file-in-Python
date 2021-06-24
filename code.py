@@ -7,6 +7,9 @@ zfile = ZipFile(r"C:\Users\Subroto\Downloads\Breast.zip")
 in_mem_fo = TextIOWrapper(BytesIO(zfile.read('Breast.arff')), encoding='utf-8')
 data = loadarff(in_mem_fo)
 
+def plus(a,b):
+  return a + b
+
 df = pd.DataFrame(data[0])
 df.head()
 df.tail()
