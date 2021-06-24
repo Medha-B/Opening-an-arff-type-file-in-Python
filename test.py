@@ -1,5 +1,6 @@
 from models.code import plus
+import unittest
 
-
-def test_plus():
-    assert plus(10, 10) == 21
+class TestCacl(unittest.TestCase):
+    def test_plus(self):
+        self.assert plus(10, 10) == 21
