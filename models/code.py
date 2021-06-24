@@ -3,4 +3,4 @@ def plus(a, b):
 
 
 def test_plus():
-    assert plus(10, 10) == 20
+    assert plus(10, 10) == 21
